@@ -38,10 +38,7 @@
             pointer-events: none;
         }
 
-        .star {
-            position: absolute;
-            border-radius: 50%;
-        }
+        .star { position: absolute; border-radius: 50%; }
 
         .shooting-star {
             position: absolute;
@@ -67,20 +64,10 @@
             z-index: 1000;
         }
 
-        .logo {
-            font-size: 24px;
-            font-weight: 800;
-            letter-spacing: 1px;
-        }
+        .logo { font-size: 24px; font-weight: 800; letter-spacing: 1px; }
+        .logo span { color: var(--accent-color); }
 
-            .logo span {
-                color: var(--accent-color);
-            }
-
-        .nav-links {
-            display: flex;
-            gap: 20px;
-        }
+        .nav-links { display: flex; gap: 20px; }
 
         .nav-link {
             color: var(--subtext-color);
@@ -95,9 +82,7 @@
             padding: 0;
         }
 
-            .nav-link:hover {
-                color: var(--text-color);
-            }
+        .nav-link:hover { color: var(--text-color); }
 
         .hero {
             min-height: 100vh;
@@ -111,18 +96,8 @@
             background: transparent;
         }
 
-            .hero h1 {
-                font-size: 64px;
-                margin-bottom: 15px;
-            }
-
-            .hero p {
-                font-size: 18px;
-                color: var(--subtext-color);
-                max-width: 650px;
-                line-height: 1.6;
-                margin-bottom: 40px;
-            }
+        .hero h1 { font-size: 64px; margin-bottom: 15px; }
+        .hero p { font-size: 18px; color: var(--subtext-color); max-width: 650px; line-height: 1.6; margin-bottom: 40px; }
 
         .btn-download {
             background-color: var(--accent-color);
@@ -138,11 +113,11 @@
             cursor: pointer;
         }
 
-            .btn-download:hover {
-                background-color: #45a049;
-                transform: translateY(-2px);
-                box-shadow: 0 6px 20px rgba(76, 175, 80, 0.5);
-            }
+        .btn-download:hover {
+            background-color: #45a049;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(76, 175, 80, 0.5);
+        }
 
         .content-split {
             display: flex;
@@ -163,41 +138,12 @@
             overflow-y: auto;
         }
 
-            .changelog-section h2 {
-                margin-top: 0;
-                color: var(--accent-color);
-                font-size: 24px;
-                border-bottom: 1px solid var(--border-color);
-                padding-bottom: 10px;
-            }
-
-        .changelog-content h3 {
-            font-size: 18px;
-            margin-bottom: 5px;
-            margin-top: 20px;
-            color: white;
-        }
-
-        .changelog-content p {
-            color: var(--subtext-color);
-            font-size: 14px;
-            line-height: 1.5;
-        }
-
-        .changelog-content ul {
-            color: var(--subtext-color);
-            font-size: 14px;
-            padding-left: 20px;
-        }
-
-        .changelog-content li {
-            margin-bottom: 5px;
-        }
-
-        .changelog-content strong {
-            color: white;
-        }
-
+        .changelog-section h2 { margin-top: 0; color: var(--accent-color); font-size: 24px; border-bottom: 1px solid var(--border-color); padding-bottom: 10px;}
+        .changelog-content h3 { font-size: 18px; margin-bottom: 5px; margin-top: 20px; color: white;}
+        .changelog-content p { color: var(--subtext-color); font-size: 14px; line-height: 1.5;}
+        .changelog-content ul { color: var(--subtext-color); font-size: 14px; padding-left: 20px;}
+        .changelog-content li { margin-bottom: 5px;}
+        .changelog-content strong { color: white; }
         .changelog-content blockquote {
             border-left: 4px solid var(--accent-color);
             margin: 10px 0;
@@ -229,24 +175,9 @@
             transition: transform 0.2s;
         }
 
-            .card:hover {
-                transform: translateY(-5px);
-                border-color: #333;
-            }
-
-            .card h3 {
-                font-size: 20px;
-                margin-top: 0;
-                color: var(--accent-color);
-                margin-bottom: 10px;
-            }
-
-            .card p {
-                color: var(--subtext-color);
-                line-height: 1.5;
-                margin: 0;
-                font-size: 15px;
-            }
+        .card:hover { transform: translateY(-5px); border-color: #333; }
+        .card h3 { font-size: 20px; margin-top: 0; color: var(--accent-color); margin-bottom: 10px;}
+        .card p { color: var(--subtext-color); line-height: 1.5; margin: 0; font-size: 15px; }
 
         .warning-box {
             background-color: rgba(231, 76, 60, 0.05);
@@ -257,177 +188,94 @@
             text-align: left;
         }
 
-            .warning-box h3 {
-                color: #E74C3C;
-                margin-top: 0;
-                margin-bottom: 10px;
-            }
+        .warning-box h3 { color: #E74C3C; margin-top: 0; margin-bottom: 10px; }
+        .warning-box p { color: var(--subtext-color); line-height: 1.6; margin-bottom: 10px; font-size: 15px; }
+        .warning-box ul { color: var(--subtext-color); margin: 0; font-size: 15px; }
 
-            .warning-box p {
-                color: var(--subtext-color);
-                line-height: 1.6;
-                margin-bottom: 10px;
-                font-size: 15px;
-            }
-
-            .warning-box ul {
-                color: var(--subtext-color);
-                margin: 0;
-                font-size: 15px;
-            }
-
-        footer {
-            text-align: center;
-            padding: 30px;
-            border-top: 1px solid var(--border-color);
-            color: #666;
-            font-size: 14px;
-            background-color: rgba(3, 3, 3, 0.9);
-        }
-
-            footer a {
-                color: var(--accent-color);
-                text-decoration: none;
-            }
+        footer { text-align: center; padding: 30px; border-top: 1px solid var(--border-color); color: #666; font-size: 14px; background-color: rgba(3, 3, 3, 0.9); }
+        footer a { color: var(--accent-color); text-decoration: none; }
 
         #toast {
-            visibility: hidden;
-            min-width: 250px;
-            background-color: var(--accent-color);
-            color: #fff;
-            text-align: center;
-            border-radius: 6px;
-            padding: 16px;
-            position: fixed;
-            z-index: 2000;
-            left: 50%;
-            bottom: 30px;
-            transform: translateX(-50%);
-            font-weight: bold;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
-            opacity: 0;
-            transition: opacity 0.3s, bottom 0.3s;
+            visibility: hidden; min-width: 250px; background-color: var(--accent-color); color: #fff; text-align: center; border-radius: 6px; padding: 16px;
+            position: fixed; z-index: 2000; left: 50%; bottom: 30px; transform: translateX(-50%); font-weight: bold; box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+            opacity: 0; transition: opacity 0.3s, bottom 0.3s;
         }
-
-            #toast.show {
-                visibility: visible;
-                opacity: 1;
-                bottom: 50px;
-            }
+        #toast.show { visibility: visible; opacity: 1; bottom: 50px; }
 
         .modal-overlay {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100vw;
-            height: 100vh;
-            background-color: rgba(0, 0, 0, 0.8);
-            backdrop-filter: blur(5px);
-            z-index: 3000;
-            display: none;
-            justify-content: center;
-            align-items: center;
+            position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
+            background-color: rgba(0, 0, 0, 0.8); backdrop-filter: blur(5px);
+            z-index: 3000; display: none; justify-content: center; align-items: center;
         }
 
         .modal-card {
-            background-color: var(--card-color);
-            border: 1px solid var(--border-color);
-            border-radius: 12px;
-            padding: 30px;
-            width: 90%;
-            max-width: 500px;
+            background-color: var(--card-color); border: 1px solid var(--border-color);
+            border-radius: 12px; padding: 30px; width: 90%; max-width: 500px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.8);
         }
 
-        .modal-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 20px;
+        .modal-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+        .modal-header h2 { margin: 0; font-size: 24px; color: var(--accent-color); }
+        .modal-header button { background: none; border: none; color: var(--subtext-color); font-size: 24px; cursor: pointer; transition: color 0.2s; }
+        .modal-header button:hover { color: white; }
+
+        .form-group { margin-bottom: 15px; text-align: left; }
+        .form-group label { display: block; color: var(--subtext-color); font-size: 14px; margin-bottom: 5px; font-weight: 600;}
+        .form-group input, .form-group select, .form-group textarea {
+            width: 100%; padding: 10px; border-radius: 6px; border: 1px solid var(--border-color);
+            background-color: var(--bg-color); color: white; font-family: inherit; font-size: 15px; box-sizing: border-box;
+        }
+        
+        .form-group select {
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23aaaaaa' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+            background-repeat: no-repeat;
+            background-position: right 10px center;
+            background-size: 15px;
+            padding-right: 30px;
         }
 
-            .modal-header h2 {
-                margin: 0;
-                font-size: 24px;
-                color: var(--accent-color);
+        .form-group textarea { resize: vertical; min-height: 100px; }
+        .form-group input:focus, .form-group select:focus, .form-group textarea:focus { outline: none; border-color: var(--accent-color); }
+
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: var(--bg-color); border-radius: 4px; }
+        ::-webkit-scrollbar-thumb { background: #333; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #555; }
+
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                padding: 15px 5%;
+                gap: 15px;
             }
-
-            .modal-header button {
-                background: none;
-                border: none;
-                color: var(--subtext-color);
-                font-size: 24px;
-                cursor: pointer;
-                transition: color 0.2s;
+            .nav-links {
+                gap: 15px;
             }
-
-                .modal-header button:hover {
-                    color: white;
-                }
-
-        .form-group {
-            margin-bottom: 15px;
-            text-align: left;
+            .hero {
+                padding-top: 140px; 
+            }
+            .hero h1 {
+                font-size: 42px;
+            }
+            .hero p {
+                font-size: 16px;
+            }
+            .content-split {
+                flex-direction: column;
+                padding: 30px 5% 50px 5%;
+            }
+            .grid {
+                grid-template-columns: 1fr;
+            }
+            .modal-card {
+                max-height: 90vh;
+                overflow-y: auto;
+                padding: 20px;
+            }
         }
-
-            .form-group label {
-                display: block;
-                color: var(--subtext-color);
-                font-size: 14px;
-                margin-bottom: 5px;
-                font-weight: 600;
-            }
-
-            .form-group input, .form-group select, .form-group textarea {
-                width: 100%;
-                padding: 10px;
-                border-radius: 6px;
-                border: 1px solid var(--border-color);
-                background-color: var(--bg-color);
-                color: white;
-                font-family: inherit;
-                font-size: 15px;
-                box-sizing: border-box;
-            }
-
-            .form-group select {
-                appearance: none;
-                -webkit-appearance: none;
-                -moz-appearance: none;
-                background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23aaaaaa' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
-                background-repeat: no-repeat;
-                background-position: right 10px center;
-                background-size: 15px;
-                padding-right: 30px;
-            }
-
-            .form-group textarea {
-                resize: vertical;
-                min-height: 100px;
-            }
-
-                .form-group input:focus, .form-group select:focus, .form-group textarea:focus {
-                    outline: none;
-                    border-color: var(--accent-color);
-                }
-
-        ::-webkit-scrollbar {
-            width: 8px;
-        }
-
-        ::-webkit-scrollbar-track {
-            background: var(--bg-color);
-            border-radius: 4px;
-        }
-
-        ::-webkit-scrollbar-thumb {
-            background: #333;
-            border-radius: 4px;
-        }
-
-            ::-webkit-scrollbar-thumb:hover {
-                background: #555;
-            }
     </style>
 </head>
 <body>
@@ -450,7 +298,7 @@
                 <h2>Apex Support</h2>
                 <button onclick="closeSupport()">✕</button>
             </div>
-
+            
             <div class="form-group">
                 <label>Category:</label>
                 <select id="sup-category" onchange="toggleSubcategory()">
@@ -554,8 +402,8 @@
             intensity: 0.8,
             coolColor: '200, 230, 255',
             warmColor: '255, 220, 150',
-            spawnRateMinMs: 8000,
-            spawnRateMaxMs: 20000,
+            spawnRateMinMs: 8000,  
+            spawnRateMaxMs: 20000, 
             speedMultiplier: 0.35,
             tailLengthPx: 170
         };
@@ -565,16 +413,21 @@
         for (let i = 0; i < STAR_SETTINGS.totalStars; i++) {
             let star = document.createElement('div');
             star.className = 'star';
-            let isWarm = Math.random() > 0.6;
+            
+            let isWarm = Math.random() > 0.6; 
             let rgb = isWarm ? STAR_SETTINGS.warmColor : STAR_SETTINGS.coolColor;
+            
             star.style.backgroundColor = `rgba(${rgb}, ${STAR_SETTINGS.intensity})`;
-            star.style.boxShadow = `0 0 5px rgba(${rgb}, ${STAR_SETTINGS.intensity})`;
+            star.style.boxShadow = `0 0 5px rgba(${rgb}, ${STAR_SETTINGS.intensity})`; 
+
             star.style.left = Math.random() * 100 + 'vw';
-            star.style.top = Math.random() * 300 + 'vh';
+            star.style.top = Math.random() * 300 + 'vh'; 
+            
             let size = Math.random() * 2.5 + 0.5;
             star.style.width = size + 'px';
             star.style.height = size + 'px';
-            star.dataset.depth = Math.random() * 0.4 + 0.1;
+            star.dataset.depth = Math.random() * 0.4 + 0.1; 
+            
             starContainer.appendChild(star);
         }
 
@@ -588,17 +441,23 @@
 
         function spawnShootingStar() {
             let nextSpawn = Math.random() * (STAR_SETTINGS.spawnRateMaxMs - STAR_SETTINGS.spawnRateMinMs) + STAR_SETTINGS.spawnRateMinMs;
-            if (document.hidden) { setTimeout(spawnShootingStar, nextSpawn); return; }
+            
+            if (document.hidden) {
+                setTimeout(spawnShootingStar, nextSpawn);
+                return;
+            }
+
             let star = document.createElement('div');
             star.className = 'shooting-star';
+            
             let startEdge = Math.floor(Math.random() * 4);
             let startX, startY, targetX, targetY;
             const w = window.innerWidth;
             const h = window.innerHeight;
 
-            if (startEdge === 0) { startX = Math.random() * w; startY = -100; targetX = Math.random() * w; targetY = h + 100; }
-            else if (startEdge === 1) { startX = w + 100; startY = Math.random() * h; targetX = -100; targetY = Math.random() * h; }
-            else if (startEdge === 2) { startX = Math.random() * w; startY = h + 100; targetX = Math.random() * w; targetY = -100; }
+            if (startEdge === 0) { startX = Math.random() * w; startY = -100; targetX = Math.random() * w; targetY = h + 100; } 
+            else if (startEdge === 1) { startX = w + 100; startY = Math.random() * h; targetX = -100; targetY = Math.random() * h; } 
+            else if (startEdge === 2) { startX = Math.random() * w; startY = h + 100; targetX = Math.random() * w; targetY = -100; } 
             else { startX = -100; startY = Math.random() * h; targetX = w + 100; targetY = Math.random() * h; }
 
             let angleRad = Math.atan2(targetY - startY, targetX - startX);
@@ -617,13 +476,15 @@
                 star.style.transform = `translate(${targetX}px, ${targetY}px) rotate(${angleDeg}deg)`;
                 setTimeout(() => { star.remove(); }, durationSeconds * 1000);
             });
+            
             setTimeout(spawnShootingStar, nextSpawn);
         }
+        
         setTimeout(spawnShootingStar, 1000);
 
         function openSupport() { document.getElementById('support-modal').style.display = 'flex'; }
         function closeSupport() { document.getElementById('support-modal').style.display = 'none'; }
-
+        
         function toggleSubcategory() {
             const cat = document.getElementById('sup-category').value;
             const sub = document.getElementById('sub-category-group');
@@ -634,7 +495,7 @@
             const cat = document.getElementById('sup-category').value;
             let subcat = "";
             if (cat === "Bug") subcat = `[${document.getElementById('sup-subcategory').value}]`;
-
+            
             const subj = document.getElementById('sup-subject').value || "No Subject";
             const em = document.getElementById('sup-email').value || "No email provided";
             const msg = document.getElementById('sup-msg').value;
@@ -651,31 +512,32 @@
             navigator.clipboard.writeText("nokdr");
             var toast = document.getElementById("toast");
             toast.className = "show";
-            setTimeout(function () { toast.className = toast.className.replace("show", ""); }, 3000);
+            setTimeout(function(){ toast.className = toast.className.replace("show", ""); }, 3000);
         }
 
         async function fetchReleaseNotes() {
             const url = "https://api.github.com/repos/NoKDR/Apex-Autoclicker/releases/latest";
             const contentDiv = document.getElementById("changelog-content");
+            
             try {
                 const response = await fetch(url);
                 if (!response.ok) throw new Error();
                 const data = await response.json();
-
+                
                 let bodyHtml = data.body.replace(/\r\n/g, '<br>');
-                bodyHtml = bodyHtml.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
-                bodyHtml = bodyHtml.replace(/> (.*?)<br>/g, '<blockquote>$1</blockquote>');
-                bodyHtml = bodyHtml.replace(/- (.*?)<br>/g, '<li>$1</li>');
-                bodyHtml = bodyHtml.replace(/\* (.*?)<br>/g, '<li>$1</li>');
-                bodyHtml = bodyHtml.replace(/### (.*?)<br>/g, '<h3>$1</h3>');
-                bodyHtml = bodyHtml.replace(/## (.*?)<br>/g, '<h3>$1</h3>');
-
+                bodyHtml = bodyHtml.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>'); 
+                bodyHtml = bodyHtml.replace(/> (.*?)<br>/g, '<blockquote>$1</blockquote>'); 
+                bodyHtml = bodyHtml.replace(/- (.*?)<br>/g, '<li>$1</li>'); 
+                bodyHtml = bodyHtml.replace(/\* (.*?)<br>/g, '<li>$1</li>'); 
+                bodyHtml = bodyHtml.replace(/### (.*?)<br>/g, '<h3>$1</h3>'); 
+                bodyHtml = bodyHtml.replace(/## (.*?)<br>/g, '<h3>$1</h3>'); 
+                
                 contentDiv.innerHTML = `
-                        <h3>${data.name}</h3>
-                        <p style="color: #666; font-size: 12px; margin-top: -5px; margin-bottom: 15px;">Released on ${new Date(data.published_at).toLocaleDateString()}</p>
-                        <div style="color: #ccc; font-size: 14px;">${bodyHtml}</div>
-                        <a href="${data.html_url}" target="_blank" style="color: #4CAF50; text-decoration: none; display: inline-block; margin-top: 15px;">View full release on GitHub &rarr;</a>
-                    `;
+                    <h3>${data.name}</h3>
+                    <p style="color: #666; font-size: 12px; margin-top: -5px; margin-bottom: 15px;">Released on ${new Date(data.published_at).toLocaleDateString()}</p>
+                    <div style="color: #ccc; font-size: 14px;">${bodyHtml}</div>
+                    <a href="${data.html_url}" target="_blank" style="color: #4CAF50; text-decoration: none; display: inline-block; margin-top: 15px;">View full release on GitHub &rarr;</a>
+                `;
             } catch (error) {
                 contentDiv.innerHTML = "<p>Failed to load release notes. Please check GitHub directly.</p>";
             }
